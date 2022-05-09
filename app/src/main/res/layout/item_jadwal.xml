@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/bg_item"
+    android:orientation="horizontal"
+    android:backgroundTint="@color/green_light"
+    android:layout_marginBottom="20dp"
+    >
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_juduljadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jadwal 1"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/tv_deskjadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="deskripsi jadwal 1"
+            android:textColor="@color/gray_light"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_harijadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dd/mm/yyyy"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="6dp"
+            />
+        <TextView
+            android:id="@+id/tv_jamjadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hhh:mm"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginTop="6dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
